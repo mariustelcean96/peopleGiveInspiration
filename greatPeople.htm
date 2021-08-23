@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html>
+<title>Website – Marius-Andrei Telcean</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body,h1 {font-family: "Montserrat", sans-serif}
+img {margin-bottom: -7px}
+.w3-row-padding img {margin-bottom: 12px}
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+</style>
+<body>
+
+<!-- Sidebar -->
+<nav class="w3-sidebar w3-black w3-animate-top w3-xxlarge" style="display:none;padding-top:150px" id="mySidebar">
+  <a href="javascript:void(0)" onclick="w3_close()" class="w3-button w3-black w3-xxlarge w3-padding w3-display-topright" style="padding:6px 24px">
+    <i class="fa fa-remove"></i>
+  </a>
+  <div class="w3-bar-block w3-center">
+    <a href="index.htm" class="w3-bar-item w3-button w3-text-grey w3-hover-black">Home</a>
+    <a href="greatPeople.htm" class="w3-bar-item w3-button w3-text-grey w3-hover-black">People</a>
+    <a href="music.htm" class="w3-bar-item w3-button w3-text-grey w3-hover-black">Music</a>
+    <a href="#" class="w3-bar-item w3-button w3-text-grey w3-hover-black">Projects & DIY</a>
+  </div>
+</nav>
+
+<!-- !PAGE CONTENT! -->
+<div class="w3-content" style="max-width:1500px">
+
+<!-- Header -->
+<div class="w3-opacity">
+<span class="w3-button w3-xxlarge w3-white w3-right" onclick="w3_open()"><i class="fa fa-bars"></i></span> 
+<div class="w3-clear"></div>
+<header class="w3-center w3-margin-bottom">
+  <h1><b>They are the People who Inspire me</b></h1>
+  <p><b>A template made by w3.css</b></p>
+  <p class="w3-padding-16"><button class="w3-button w3-black" onclick="myFunction()">Toggle Grid Padding</button></p>
+</header>
+</div>
+
+<!-- Photo Grid -->
+<div class="w3-row" id="myGrid" style="margin-bottom:128px">
+  <div class="w3-third">
+  
+    <img src="https://upload.wikimedia.org/wikipedia/commons/c/c4/Launch_of_IYA_2009%2C_Paris_-_Grygar%2C_Bell_Burnell_cropped.jpg" style="width:100%" alt="Picture of Jocelyn.">
+    <div class="desc"><h3><b>Jocelyn Bell Burnell &#127756</b></h3>
+      <p>The New York Times: <q>Growing up in a Quaker household, Jocelyn Bell Burnell was raised to believe that she had as 
+        much right to an education as anyone else. But as a girl in the 1940s in Northern Ireland, 
+        her enthusiasm for the sciences was met with hostility from teachers and male students. <br> In 1967, Burnell made a discovery that altered our perception of the universe. 
+        As a Ph.D. student at Cambridge University assisting the astronomer Anthony Hewish, she 
+        discovered pulsars — compact, spinning celestial objects that give off beams of radiation, like cosmic lighthouses.</q>
+      <a href="https://www.youtube.com/watch?v=NDW9zKqvPJI"><br>Learn more »</a></p>
+    </div>
+    <img src="https://solarsystem.nasa.gov/system/people/detail_images/660_270946main_CarlSagan_20080903-browse.jpg" style="width:100%" alt="Picture of Carl surrounded by planets.">
+    <div class="desc"><h3><b>Carl Sagan &#11088</b></h3>
+      <p>National Geographic: "He worked very hard for his students, got them jobs, worried about their education, many of them very well placed now," says William Poundstone, author of Carl Sagan: A Life in the Cosmos. "If you talk to the people he inspired, who knew him, they are uniformly effusive."<br><br>
+        "Part of what made him great was the number of things he pursued," says NASA's David Morrison, director of the Carl Sagan Center for the Study of Life in the Universe, at the SETI Institute in Mountain View, California. Morrison marveled both at Sagan's breadth of accomplishments and his lack of self-importance.<br><br>Photo courtesy of <a href="https://solarsystem.nasa.gov/people/660/carl-sagan-1934-1996/">NASA</a>.<br>
+        <a href="https://www.nationalgeographic.com/science/article/140316-carl-sagan-science-galaxies-space">Learn more »</a>
+      </p>
+    </div>
+    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Neil_deGrasse_Tyson_in_June_2017_%28cropped%29.jpg/800px-Neil_deGrasse_Tyson_in_June_2017_%28cropped%29.jpg" style="width:100%" alt="Picture of Neil as he was receiving the Stephen Hawking Medal for Science Communication.">
+    <div class="desc"><h3><b>Neil deGrasse Tyson &#128214</b></h3>
+      <p>Britannica.com: "American astronomer who popularized science with his books and frequent appearances on radio and television.<br>
+        In 2014 he hosted the television series Cosmos: A Spacetime Odyssey, a “continuation” (as he termed it) of astronomer Carl Sagan’s popular series Cosmos (1980).
+      <a href="https://www.britannica.com/biography/Neil-deGrasse-Tyson">Learn more »</a></p>
+    </div>
+    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b3/R%C3%B8mer%2C_Ole_%28ur_Ber%C3%B8mte_danske_maend%29.jpg/800px-R%C3%B8mer%2C_Ole_%28ur_Ber%C3%B8mte_danske_maend%29.jpg" style="width:100%" alt="Picture of Ole">
+    <div class="desc"><h3><b>Ole Rømer &#12336 </b></h3>
+      <p>"...in 1676, made the first quantitative measurements of the speed of light." Wikipedia<br><a href="https://en.wikipedia.org/wiki/Ole_R%C3%B8mer">Learn more »</a></p>
+    </div>
+    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/Justus_Sustermans_-_Portrait_of_Galileo_Galilei%2C_1636.jpg/800px-Justus_Sustermans_-_Portrait_of_Galileo_Galilei%2C_1636.jpg" style="width:100%" alt="Picture of Galileo">
+    <div class="desc"><h3><b>Galileo Galilei &#127764</b></h3>
+    <p>"Galileo's championing of Copernican heliocentrism (Earth rotating daily and revolving around the sun) was met with opposition from within the Catholic Church and from some astronomers. 
+      The matter was investigated by the Roman Inquisition in 1615, which concluded that heliocentrism was foolish, absurd, and heretical since it contradicted Holy Scripture." (Wikipedia)<br>
+    <a href="https://en.wikipedia.org/wiki/Galileo_Galilei">Learn more »</a></p>
+    </div>
+    <img src="https://upload.wikimedia.org/wikipedia/commons/1/15/Giordano_Bruno.jpg" style="width:100%" alt="Picture of Giordano">
+    <div class="desc"><h3><b>Giordano Bruno &#127775</b></h3>
+    <p>"He proposed that the stars were distant suns surrounded by their own planets, and he raised the possibility that these planets might foster life of their own, a cosmological position known as cosmic pluralism. 
+      He also insisted that the universe is infinite and could have no "center"." (Wikipedia)<br>
+    <a href="https://en.wikipedia.org/wiki/Giordano_Bruno">Learn more »</a></p>
+    </div>
+  </div>
+
+  <div class="w3-third">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/7/73/Sebasti%C3%A3o_Salgado_03.jpg" style="width:100%" alt="Picture of Sebastiao.">
+    <div class="desc">
+      <h3><b>Sebastião Salgado &#128247</b></h3>
+      <p>"(...) Brazilian social documentary photographer and photojournalist.<br>
+        In September and October 2007, Salgado displayed his photographs of coffee workers from India, Guatemala, Ethiopia and Brazil at the Brazilian Embassy in London. 
+        The aim of the project was to raise public awareness of the origins of the popular drink." (Wikipedia)</p>
+        <a href="https://en.wikipedia.org/wiki/Sebasti%C3%A3o_Salgado">Learn more »</a>
+    </div>
+    <img src="https://upload.wikimedia.org/wikipedia/commons/0/05/Robin_Williams_2011a_%282%29.jpg" style="width:100%" alt="Picture of Robin.">
+    <div class="desc">
+      <h3><b>Robin Williams &#128064</b></h3>
+      <p>"Actor and comedian Robin Williams was known for his fast-paced, improvisational performance style and for his performances in films like 'Good Will Hunting' 
+        and 'Dead Poets Society.'"</p>
+        <a href="https://www.biography.com/actor/robin-williams">Learn more »</a>
+    </div>
+    <img src="https://www.airlineratings.com/wp-content/uploads/uploads/tdy_feith_plane_160523.jpg" style="width:100%" alt="Picture of Greg">
+    <div class="desc">
+      <h3><b>Gregory Feith &#9992</b></h3>
+      <p>"American former Senior Air Safety Investigator with the National Transportation Safety Board (NTSB). He currently works as a consultant on aviation safety 
+        and security matters in the private sector, and as the aviation expert for NBC and MSNBC. He also serves as the technical advisor in a number of television 
+        programs such as Mayday (also known as Air Disasters in the United States and Air Crash Investigation in other parts of the world), Seconds From Disaster, 
+        and Why Planes Crash while maintaining a busy speaking schedule."</p>
+        <a href="https://en.wikipedia.org/wiki/Greg_Feith">Learn more »</a>
+    </div>
+    <img src="/w3images/london.jpg" style="width:100%">
+    <img src="/w3images/rocks.jpg" style="width:100%">
+    <img src="/w3images/avatar_g.jpg" style="width:100%">
+  </div>
+
+  <div class="w3-third">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/Robert_Bilott.jpg/220px-Robert_Bilott.jpg" style="width:100%" alt="Picture of Robert.">
+    <div class="desc">
+      <h3><b>Robert Bilott &#128689</b></h3><h4>"The Lawyer Who Became DuPont's Worst Nightmare"</h4>
+      <p>"American environmental attorney from Cincinnati, Ohio. Bilott is known for the lawsuits against DuPont on behalf of plaintiffs from West Virginia. 
+        Bilott has spent more than twenty years litigating hazardous dumping of the chemicals perfluorooctanoic acid (PFOA) and perfluorooctanesulfonic acid (PFOS).<br><br>
+        After the independent scientific panel jointly selected by the parties (but required under the settlement to be paid for by DuPont) found that there was a probable 
+        link between drinking PFOA and kidney cancer, testicular cancer, thyroid disease, high cholesterol, pre-eclampsia, and ulcerative colitis, Bilott began opening
+         individual personal-injury lawsuits against DuPont on behalf of affected users of the Ohio and West Virginia water supplies, which by 2015 numbered over 3,500. 
+         After winning the first three for $19.7 million, in 2017 DuPont agreed to settle the remainder of the then-pending cases for $671.7 million. Dozens of 
+         additional cases filed after the 2017 settlement were settled in 2021 for an additional $83 million (announced in conjunction with a $4 billion settlement 
+         between DuPont and its spin-off, Chemours, over PFAS liabilities), bringing the total settlement value in the personal injury cases for those exposed to PFOA 
+         in their drinking water to over $753 million." (Wikipedia)<br>
+      <a href="https://en.wikipedia.org/wiki/Robert_Bilott">Learn more »</a></p>
+    </div>
+    <img src="/w3images/workbench.jpg" style="width:100%">
+    <img src="/w3images/gondol.jpg" style="width:100%">
+    <img src="/w3images/skies.jpg" style="width:100%">
+    <img src="/w3images/lights.jpg" style="width:100%">
+    <img src="/w3images/workshop.jpg" style="width:100%">
+  </div>
+</div>
+
+<!-- End Page Content -->
+</div>
+<!-- Pagination-->
+<div class="w3-center w3-padding-32">
+  <div class="w3-bar">
+    <a href="#" class="w3-bar-item w3-button w3-hover-black">«</a>
+    <a href="#" class="w3-bar-item w3-black w3-button">1</a>
+    <a href="#" class="w3-bar-item w3-button w3-hover-black">2</a>
+    <a href="#" class="w3-bar-item w3-button w3-hover-black">3</a>
+    <a href="#" class="w3-bar-item w3-button w3-hover-black">4</a>
+    <a href="#" class="w3-bar-item w3-button w3-hover-black">»</a>
+  </div>
+</div>
+
+<!-- Footer -->
+<footer class="w3-container w3-padding-64 w3-light-grey w3-center w3-opacity w3-xlarge" style="margin-top:128px"> 
+  <i class="fa fa-facebook-official w3-hover-opacity"></i>
+  <i class="fa fa-instagram w3-hover-opacity"></i>
+  <i class="fa fa-snapchat w3-hover-opacity"></i>
+  <i class="fa fa-pinterest-p w3-hover-opacity"></i>
+  <i class="fa fa-twitter w3-hover-opacity"></i>
+  <i class="fa fa-linkedin w3-hover-opacity"></i>
+  <p class="w3-medium">Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank" class="w3-hover-text-green">w3.css</a></p>
+  <p class="w3-medium">Updated 23 August 2021</p>
+</footer>
+ 
+<script>
+// Toggle grid padding
+function myFunction() {
+  var x = document.getElementById("myGrid");
+  if (x.className === "w3-row") {
+    x.className = "w3-row-padding";
+  } else { 
+    x.className = x.className.replace("w3-row-padding", "w3-row");
+  }
+}
+
+// Open and close sidebar
+function w3_open() {
+  document.getElementById("mySidebar").style.width = "100%";
+  document.getElementById("mySidebar").style.display = "block";
+}
+
+function w3_close() {
+  document.getElementById("mySidebar").style.display = "none";
+}
+</script>
+
+</body>
+</html>

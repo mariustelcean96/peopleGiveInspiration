@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html>
+<title>Website, Music – Marius-Andrei Telcean</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body,h1 {font-family: "Montserrat", sans-serif}
+img {margin-bottom: -7px}
+.w3-row-padding img {margin-bottom: 12px}
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+</style>
+<body>
+
+<!-- Sidebar -->
+<nav class="w3-sidebar w3-black w3-animate-top w3-xxlarge" style="display:none;padding-top:150px" id="mySidebar">
+  <a href="javascript:void(0)" onclick="w3_close()" class="w3-button w3-black w3-xxlarge w3-padding w3-display-topright" style="padding:6px 24px">
+    <i class="fa fa-remove"></i>
+  </a>
+  <div class="w3-bar-block w3-center">
+    <a href="index.htm" class="w3-bar-item w3-button w3-text-grey w3-hover-black">Home</a>
+    <a href="greatPeople.htm" class="w3-bar-item w3-button w3-text-grey w3-hover-black">People</a>
+    <a href="music.htm" class="w3-bar-item w3-button w3-text-grey w3-hover-black">Music</a>
+    <a href="#" class="w3-bar-item w3-button w3-text-grey w3-hover-black">Projects & DIY</a>
+  </div>
+</nav>
+
+<!-- !PAGE CONTENT! -->
+<div class="w3-content" style="max-width:1500px">
+
+<!-- Header -->
+<div class="w3-opacity">
+<span class="w3-button w3-xxlarge w3-white w3-right" onclick="w3_open()"><i class="fa fa-bars"></i></span> 
+<div class="w3-clear"></div>
+<header class="w3-center w3-margin-bottom">
+  <h1><b>Artists and their music</b></h1>
+  <p><b>A template made by w3.css</b></p>
+  <p class="w3-padding-16"><button class="w3-button w3-black" onclick="myFunction()">Toggle Grid Padding</button></p>
+</header>
+</div>
+
+<!-- Photo Grid -->
+<div class="w3-row" id="myGrid" style="margin-bottom:128px">
+  <div class="w3-third">
+    <img src="https://cdn.custom-cursor.com/packs/3984/pink-floyd-logo-pack.png" style="width:100%" alt="Pink Floyd custom logo.">
+    <div class="desc"><h3><b>Pink Floyd &#9199</b></h3>
+      <p>"English rock band formed in London in 1964. Gaining an early following as one of the first British psychedelic groups, 
+          they were distinguished for their extended compositions, sonic experimentation, philosophical lyrics and elaborate live shows. 
+          They became a leading band of the progressive rock genre, cited by some as the greatest progressive rock band of all time."</q>
+      <a href="https://en.wikipedia.org/wiki/Pink_Floyd"><br>Learn more »</a></p>
+    </div>
+    <img src="https://upload.wikimedia.org/wikipedia/commons/4/49/LedZeppelinmontage.jpg" style="width:100%" alt="Pictures of band's members.">
+    <div class="desc"><h3><b>Led Zeppelin &#127776</b></h3>
+      <p>English rock band formed in London in 1968. The group consisted of vocalist Robert Plant, guitarist Jimmy Page, bassist/keyboardist 
+          John Paul Jones, and drummer John Bonham. With a heavy, guitar-driven sound, they are cited as one of the progenitors of hard rock 
+          and heavy metal, although their style drew from a variety of influences, including blues and folk music. Led Zeppelin have been 
+          credited as significantly impacting the nature of the music industry, particularly in the development of album-oriented rock (AOR) 
+          and stadium rock. Many critics consider Led Zeppelin one of the most innovative and influential rock groups in history.
+        <a href="https://en.wikipedia.org/wiki/Led_Zeppelin">Learn more »</a>
+      </p>
+    </div>
+  </div>
+
+  <div class="w3-third">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/3/33/Queen_%E2%80%93_montagem_%E2%80%93_new.png" style="width:100%" alt="Queen's members.">
+    <div class="desc">
+      <h3><b> Queen &#127908</b></h3>
+      <p>"British rock band formed in London in 1970. Their classic line-up was Freddie Mercury (lead vocals, piano), 
+          Brian May (guitar, vocals), Roger Taylor (drums, vocals) and John Deacon (bass). Their earliest works were 
+          influenced by progressive rock, hard rock and heavy metal, but the band gradually ventured into more conventional 
+          and radio-friendly works by incorporating further styles, such as arena rock and pop rock."</p>
+        <a href="https://en.wikipedia.org/wiki/Queen_(band)">Learn more »</a>
+    </div>
+    <img src="" style="width:100%" alt="">
+    <div class="desc">
+      <h3><b></b></h3>
+      <p>""</p>
+        <a href="https://www.biography.com/actor/robin-williams">Learn more »</a>
+    </div>
+    <img src=".jpg" style="width:100%" alt="">
+    <div class="desc">
+      <h3><b> &#9992</b></h3>
+      <p>""</p>
+        <a href="https://en.wikipedia.org/wiki/Greg_Feith">Learn more »</a>
+    </div>
+    <img src="" style="width:100%">
+    <img src="" style="width:100%">
+    <img src="" style="width:100%">
+  </div>
+
+  <div class="w3-third">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/60/ACDC%2C_Concierto_en_el_Estadio_Olimpico_Llu%C3%ADs_Companys_-_%28Barcelona_2015%29.JPG/800px-ACDC%2C_Concierto_en_el_Estadio_Olimpico_Llu%C3%ADs_Companys_-_%28Barcelona_2015%29.JPG" style="width:100%" alt="AC/DC performs at Estadi Olímpic Lluís Companys in Barcelona on 29 May 2015.">
+    <div class="desc">
+      <h3><b>AC&#9889DC</b></h3>"Australian rock band formed in Sydney in 1973 by Scottish-born brothers
+           Malcolm and Angus Young. Their music has been variously described as hard rock, blues rock, and 
+           heavy metal, but the band themselves call it simply "rock and roll".<br>
+      <a href="https://en.wikipedia.org/wiki/AC/DC">Learn more »</a></p>
+    </div>
+    <img src="" style="width:100%">
+    <img src="" style="width:100%">
+    <img src="" style="width:100%">
+    <img src="" style="width:100%">
+    <img src="" style="width:100%">
+  </div>
+</div>
+
+<!-- End Page Content -->
+</div>
+<!-- Pagination-->
+<div class="w3-center w3-padding-32">
+  <div class="w3-bar">
+    <a href="#" class="w3-bar-item w3-button w3-hover-black">«</a>
+    <a href="#" class="w3-bar-item w3-black w3-button">1</a>
+    <a href="#" class="w3-bar-item w3-button w3-hover-black">2</a>
+    <a href="#" class="w3-bar-item w3-button w3-hover-black">3</a>
+    <a href="#" class="w3-bar-item w3-button w3-hover-black">4</a>
+    <a href="#" class="w3-bar-item w3-button w3-hover-black">»</a>
+  </div>
+</div>
+
+<!-- Footer -->
+<footer class="w3-container w3-padding-64 w3-light-grey w3-center w3-opacity w3-xlarge" style="margin-top:128px"> 
+  <i class="fa fa-facebook-official w3-hover-opacity"></i>
+  <i class="fa fa-instagram w3-hover-opacity"></i>
+  <i class="fa fa-snapchat w3-hover-opacity"></i>
+  <i class="fa fa-pinterest-p w3-hover-opacity"></i>
+  <i class="fa fa-twitter w3-hover-opacity"></i>
+  <i class="fa fa-linkedin w3-hover-opacity"></i>
+  <p class="w3-medium">Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank" class="w3-hover-text-green">w3.css</a></p>
+  <p class="w3-medium">Updated 23 August 2021</p>
+</footer>
+ 
+<script>
+// Toggle grid padding
+function myFunction() {
+  var x = document.getElementById("myGrid");
+  if (x.className === "w3-row") {
+    x.className = "w3-row-padding";
+  } else { 
+    x.className = x.className.replace("w3-row-padding", "w3-row");
+  }
+}
+
+// Open and close sidebar
+function w3_open() {
+  document.getElementById("mySidebar").style.width = "100%";
+  document.getElementById("mySidebar").style.display = "block";
+}
+
+function w3_close() {
+  document.getElementById("mySidebar").style.display = "none";
+}
+</script>
+
+</body>
+</html>
